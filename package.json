@@ -1,0 +1,30 @@
+{
+  "name": "game-damas",
+  "version": "1.0.0",
+  "description": "Project design to be the game Damas.",
+  "main": "damas.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larissajusten/game-damas.git"
+  },
+  "keywords": [
+    "game",
+    "damas",
+    "javascript"
+  ],
+  "author": "Larissa Justen <larissajusten@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/larissajusten/game-damas/issues"
+  },
+  "homepage": "https://github.com/larissajusten/game-damas#readme",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-htmlmin": "^5.0.1"
+  }
+}
