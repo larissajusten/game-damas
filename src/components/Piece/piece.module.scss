@@ -1,0 +1,8 @@
+@import '../../assets/scss-variables/index.module.scss';
+
+.piece {
+  height: $piece-size;
+  width: $piece-size;
+  border-radius: 50%;
+  box-shadow: 1px 1px 3px $color-highlight;
+}

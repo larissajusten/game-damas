@@ -1,0 +1,28 @@
+@import '../../assets/scss-variables/index.module.scss';
+
+.house {
+  width: $house-size + unquote('px');
+  height: $house-size + unquote('px');
+  border-style: inherit;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid $color-background;
+}
+
+.active {
+  border: 2px solid $color-tertiary;
+}
+
+.inactive {
+  border: none;
+}
+
+.white {
+  background-color: $color-white-house;
+}
+
+.black {
+  background-color: $color-black-house;
+}

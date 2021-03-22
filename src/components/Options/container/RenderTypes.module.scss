@@ -1,0 +1,10 @@
+@import '../../../assets/scss-variables/index.module.scss';
+
+.gameTypeOption {
+  color: $color-button-text;
+  padding: 8px 0;
+
+  .gameTypeRadio {
+    margin: 0 8px 0 0;
+  }
+}

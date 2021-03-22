@@ -1,12 +1,21 @@
-const reducer = (state, action) => {
+const INITAL_STATE = {
+  gameType: {
+    boardSize: 64,
+    lineSize: 8,
+    columnSize: 8,
+    piecesPerPlayer: 12
+  }
+}
+
+const gameTypeReducer = (state = INITAL_STATE, action) => {
   switch (action.type) {
-    case "gameTypeChange":
+    case 'gameTypeChange':
       return {
         gameType: action.payload
-      };
+      }
     default:
-      return state;
+      return state
   }
-};
+}
 
-export default reducer;
+export default gameTypeReducer
