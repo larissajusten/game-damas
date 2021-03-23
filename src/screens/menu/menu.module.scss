@@ -1,0 +1,29 @@
+@import '../../assets/scss-variables/index.module.scss';
+
+.menuScreenContainer {
+  width: 100%;
+  height: 100%;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .optionsContainer {
+    color: $color-button-text;
+    flex: 2;
+    margin: 0;
+    width: 30%;
+
+    li {
+      list-style-type: '\00BB';
+      color: $color-button;
+      padding: 16px 0px 16px 5px;
+      font-size: 1.8em;
+
+      .optionLink {
+        color: $color-button-text;
+        text-decoration: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+@import 'colors.module.scss';
+@import 'variables.module.scss';
+
+:export {
+  houseSize: $house-size;
+}
