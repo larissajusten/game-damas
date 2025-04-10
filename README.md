@@ -1,5 +1,7 @@
 # Damas
 
+Hosted at: https://checkers-d7545.web.app
+
 Damas is a game where 2 people have to make moves to "eat" as many of the opponent's pieces as possible.
 
 ## Project Structure
