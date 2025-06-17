@@ -5,7 +5,6 @@ import { Redirect } from 'react-router-dom'
 import Styles from './match.module.scss'
 
 export const MatchScreen = () => {
-
   const gameType = useSelector(state => state.gameType);
 
   const [isGameOn, setGameStatus] = useState(true)

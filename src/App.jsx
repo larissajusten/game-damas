@@ -1,10 +1,12 @@
-import { Provider } from 'react-redux'
-import { Routes } from './routes.jsx'
-import { store } from './redux/store'
-import './App.scss'
+import { Provider } from "react-redux";
+import "./App.scss";
+import { store } from "./redux/store";
+import { Routes } from "./routes.jsx";
 
-export const App = () => (
-  <Provider store={store}>
-    <Routes/>
-  </Provider>
-)
+export const App = () => {
+  return (
+    <Provider store={store}>
+      <Routes />
+    </Provider>
+  );
+};
